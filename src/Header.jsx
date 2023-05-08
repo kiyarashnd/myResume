@@ -5,20 +5,25 @@ const Header = () => {
     <section>
       <div className="underlineHeader"></div>
       <h1>i'm kiyarash</h1>
-      <p className="para">Freelance React developer</p>
-      <div className="box">
-        <p>CONTACT ME : </p>
-      </div>
-      <div className="contact">
-        <a href="https://www.linkedin.com/in/kiyarash-nadri/" target="_blank">
-          <AiOutlineLinkedin className="linkedin" />
-        </a>
-        <a href="https://github.com/kiyarashnd" target="_blank">
-          <AiFillGithub className="github" />
-        </a>
-      </div>
-      <div className="aboutMe">
-        <h2>about me</h2>
+      <p className="para">React developer</p>
+      <section className="display">
+        <div className="contact">
+          <p>CONTACT ME : </p>
+        </div>
+        <div className="contact">
+          <a href="https://www.linkedin.com/in/kiyarash-nadri/" target="_blank">
+            <AiOutlineLinkedin className="linkedin" />
+          </a>
+          <a href="https://github.com/kiyarashnd" target="_blank">
+            <AiFillGithub className="github" />
+          </a>
+        </div>
+      </section>
+      <div>
+        <div className="title">
+          <h2>about me</h2>
+          <div className="underline"></div>
+        </div>
         <p className="about">
           As a developer and computer science student at Isfahan University, I
           am interested in creating visual and attractive experiences for the

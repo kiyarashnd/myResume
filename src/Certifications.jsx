@@ -9,7 +9,7 @@ const Certifications = () => {
       </div>
       <div className="company">
         <h4>company</h4>
-        <p>freeCodeCamp.orgfreeCodeCamp.org</p>
+        <p>freeCodeCamp.org</p>
       </div>
       <div className="date">
         <p className="job-date">dates</p>
@@ -20,6 +20,7 @@ const Certifications = () => {
         <a
           href="https://www.freecodecamp.org/certification/kiyarashnd/responsive-web-design"
           className="cert"
+          target="_blank"
         >
           Show credential <FiNavigation className="linkIcon" />
         </a>
