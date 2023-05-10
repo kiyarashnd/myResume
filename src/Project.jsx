@@ -16,14 +16,14 @@ const Project = () => {
     }
   }, [index, people]);
 
-  // useEffect(() => {
-  //   let slider = setInterval(() => {
-  //     setIndex(index + 1);
-  //   }, 3000);
-  //   //with this cleanup function when you click on button and set index
-  //   //this function run aftere 3 second :
-  //   return () => clearInterval(slider);
-  // }, [index]);
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 3000);
+    //with this cleanup function when you click on button and set index
+    //this function run aftere 3 second :
+    return () => clearInterval(slider);
+  }, [index]);
   return (
     <section className="section">
       <div className="title">
