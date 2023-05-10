@@ -2,7 +2,7 @@ import { FiNavigation } from "react-icons/fi";
 
 const Certifications = () => {
   return (
-    <article className="job-info">
+    <section className="job-info">
       <div className="titleCerti">
         <h3>title</h3>
         <p>Responsive Web DesignResponsive Web Design</p>
@@ -25,15 +25,7 @@ const Certifications = () => {
           Show credential <FiNavigation className="linkIcon" />
         </a>
       </div>
-      {/* {duties.map((duty, index) => {
-    return (
-      <div key={index} className="job-desc">
-        <FaAngleDoubleRight className="job-icon" />
-        <p>{duty}</p>
-      </div>
-    );
-  })} */}
-    </article>
+    </section>
   );
 };
 
