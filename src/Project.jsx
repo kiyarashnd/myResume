@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import { AiFillGithub } from "react-icons/ai";
 import data from "./data";
 
 const Project = () => {
@@ -15,14 +16,14 @@ const Project = () => {
     }
   }, [index, people]);
 
-  useEffect(() => {
-    let slider = setInterval(() => {
-      setIndex(index + 1);
-    }, 3000);
-    //with this cleanup function when you click on button and set index
-    //this function run aftere 3 second :
-    return () => clearInterval(slider);
-  }, [index]);
+  // useEffect(() => {
+  //   let slider = setInterval(() => {
+  //     setIndex(index + 1);
+  //   }, 3000);
+  //   //with this cleanup function when you click on button and set index
+  //   //this function run aftere 3 second :
+  //   return () => clearInterval(slider);
+  // }, [index]);
   return (
     <section className="section">
       <div className="title">
@@ -31,7 +32,7 @@ const Project = () => {
       </div>
       <div className="section-center">
         {people.map((person, personIndex) => {
-          const { id, image, name, description } = person;
+          const { id, image, name, description, link } = person;
           //more stuff coming up
           let position = "nextSlide";
           if (personIndex === index) {
@@ -46,7 +47,12 @@ const Project = () => {
           return (
             <article className={position} key={id}>
               <img src={image} alt={name} className="project-img" />
-              <h4>{name}</h4>
+              <div className="displayHead">
+                <h4>{name}</h4>
+                <a href={link} target="_blank">
+                  <AiFillGithub className="githubProject" />
+                </a>
+              </div>
               <p className="text">{description}</p>
             </article>
           );

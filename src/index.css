@@ -125,6 +125,7 @@ p {
 .section {
   width: 90vw;
   max-width: var(--max-width);
+  padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -479,3 +480,17 @@ p {
     transform: translateX(100%);
   }
   
+  .githubProject{
+    width: 25px;
+    height: 25px;
+    color: var(--clr-grey-5);
+  }
+  .githubProject:hover{
+    color: #2caeba;
+  }
+
+  .displayHead{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
