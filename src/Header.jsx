@@ -11,10 +11,18 @@ const Header = () => {
           <p>CONTACT ME : </p>
         </div>
         <div className="contact">
-          <a href="https://www.linkedin.com/in/kiyarash-nadri/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/kiyarash-nadri/"
+            target="_blank"
+            title="Linkedin"
+          >
             <AiOutlineLinkedin className="linkedin" />
           </a>
-          <a href="https://github.com/kiyarashnd" target="_blank">
+          <a
+            href="https://github.com/kiyarashnd"
+            target="_blank"
+            title="Github"
+          >
             <AiFillGithub className="github" />
           </a>
         </div>
