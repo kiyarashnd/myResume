@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App;
+// Inspired by https://gatsby-strapi-portfolio-project.netlify.app/
