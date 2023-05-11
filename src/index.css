@@ -499,3 +499,10 @@ p {
     align-items: baseline;
     justify-content: space-evenly;
   }
+
+  .section-img {
+    width: 90vw;
+    max-width: var(--max-width);
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+  }

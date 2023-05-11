@@ -25,7 +25,7 @@ const Project = () => {
     return () => clearInterval(slider);
   }, [index]);
   return (
-    <section className="section">
+    <section className="section-img">
       <div className="title">
         <h2 className="project">Projects</h2>
         <div className="underline"></div>
