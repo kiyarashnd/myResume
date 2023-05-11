@@ -417,7 +417,6 @@ p {
   .text {
     max-width: 35em;
     margin: 0 auto;
-    margin-top: 1rem;
     line-height: 2;
     color: var(--clr-grey-5);
   }
