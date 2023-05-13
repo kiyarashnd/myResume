@@ -4,19 +4,19 @@ const Certifications = () => {
   return (
     <section className="job-info">
       <div className="titleCerti">
-        <h3>title</h3>
+        <h3 className="width">title</h3>
         <p>Responsive Web DesignResponsive Web Design</p>
       </div>
       <div className="company">
-        <h4>company</h4>
+        <h4 className="width">company</h4>
         <p>freeCodeCamp.org</p>
       </div>
       <div className="date">
-        <p className="job-date">dates</p>
-        <p>jan 2023</p>
+        <p className="job-date width">dates</p>
+        <p>Jan 2023</p>
       </div>
       <div className="link">
-        <p>link</p>
+        <p className="width">link</p>
         <a
           href="https://www.freecodecamp.org/certification/kiyarashnd/responsive-web-design"
           className="cert"

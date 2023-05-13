@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section>
       <div className="underlineHeader"></div>
-      <h1>i'm kiyarash</h1>
+      <h1>i'm kiyarash nadri</h1>
       <p className="para">React developer</p>
       <section className="display">
         <div className="contact">

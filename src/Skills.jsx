@@ -1,11 +1,11 @@
 const Skills = () => {
   return (
     <section className="mySkills">
-      <div className="skill">html</div>
-      <div className="skill">css</div>
-      <div className="skill">javaScript</div>
-      <div className="skill">react</div>
-      <div className="skill">git</div>
+      <div className="skill">Html</div>
+      <div className="skill">Css</div>
+      <div className="skill">JavaScript</div>
+      <div className="skill">React</div>
+      <div className="skill">Git</div>
       <div className="skill">Bootstrap</div>
     </section>
   );
