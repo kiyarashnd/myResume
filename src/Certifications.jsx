@@ -5,7 +5,7 @@ const Certifications = () => {
     <section className="job-info">
       <div className="titleCerti">
         <h3 className="width">title</h3>
-        <p>Responsive Web DesignResponsive Web Design</p>
+        <p>Responsive Web Design</p>
       </div>
       <div className="company">
         <h4 className="width">company</h4>
